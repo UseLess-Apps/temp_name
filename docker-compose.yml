@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  server:
+    container_name: server
+    build: ./
+    image: jobs:latest
+
+    ports:
+      - 8000:8000
